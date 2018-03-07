@@ -1,0 +1,29 @@
+/*============Domas============* Badge
+ /* Domas */
+#chat-messages .id-6310947 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/rc86p1s.gif');
+        background-size:        cover;
+}
+
+#user-rollover.id-6310947 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/rc86p1s.gif)
+        center no-repeat!important;
+}
+
+/*============Domas============*/ Name color
+[data-cid^="6310947"].cm .msg .from .un, #user-lists .list .role-manager.id-6310947 .name {
+  color: rgba(8, 170, 105, 1) !important;
+}
+
+ /* Dovis */
+#chat-messages .id-3859483 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/RyEIaoO.gif');
+        background-size:        cover;
+}
+
+#user-rollover.id-3859483 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/RyEIaoO.gif)
+        center no-repeat!important;
+}
