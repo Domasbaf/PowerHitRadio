@@ -1,0 +1,71 @@
+/* Created by Domas and Easy */
+#footer, .app-header, .app-right, .app-right .friends, #footer-user .info,
+#playlist-panel, #search, #playlist-menu,
+.media-list .selected .actions, .media-list .actions,
+#user-rollover, #user-rollover .info, .thumb .background,
+#the-user-profile, #user-profile, #user-store, #user-friends, #user-history, #user-communities, #user-settings, #user-shop, #user-inventory,
+#user-view, #user-menu,
+#user-menu .item,
+#app-menu, #app-menu .list {
+	background: rgba(0,0,0,.5) !important;
+}
+.icon-room {
+	width: 70px;
+	top: 14px !important; left: 5px !important;
+	background: url(https://i.imgur.com/H6bXC1U.png) 0 / cover no-repeat !important;
+}
+#room-name, #room-host {
+	left: 90px;
+}
+
+#dj-button {
+    background: rgba(0, 0, 0, 0.75);
+}
+#dj-button .left {
+    background: linear-gradient(to bottom,rgba(2, 106, 134, 0.5) 0,rgba(20, 17, 35, 0.5) 100%);
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background: linear-gradient(to bottom,rgba(255, 61, 0, 0.5) 0,rgba(177, 29, 0, 0.5) 100%);
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background: rgba(255, 0, 0, 0.35);
+}
+
+#dj-button
+{
+        opacity:                0.8;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button:hover
+{
+        opacity:                1;
+        -webkit-box-shadow:     inset 0 -5px 0 0 rgba() !important;
+        -moz-box-shadow:        inset 0 -5px 0 0 rgba()!important;
+        -o-box-shadow:          inset 0 -5px 0 0 rgba() !important;
+        box-shadow:             inset 0 -5px 0 0 rgba() !important;
+}
+#meh, #woot, #grab
+{
+        opacity:                0.6;
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+
+#vote:hover > #woot, 
+#vote:hover > #grab, 
+#vote:hover > #meh
+{
+        opacity:                0.75;
+}
+#vote #woot:hover, 
+#vote #grab:hover, 
+#vote #meh:hover
+{
+        opacity:                1;
+}
+
